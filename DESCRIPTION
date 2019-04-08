@@ -1,0 +1,13 @@
+Package: rupclass
+Type: Package
+Title: Robust model-based classification based on impartial trimming and constraints
+Version: 0.2.0
+Author: Andrea Cappozzo, Francesca Greselin and Thomas Brendan Murphy
+Date: 2019-04-04
+Maintainer: Andrea Cappozzo <a.cappozzo@campus.unimib.it>
+Description: Robust modification to the Model-Based Classification framework, employing impartial trimming and constraints on the ratio between the maximum and the minimum eigenvalue of the group scatter matrices. Both supervised (REDDA) and semisupervised (RUPCLASS) versions are included
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: mclust
+RoxygenNote: 6.0.1

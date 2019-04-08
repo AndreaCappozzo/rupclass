@@ -1,0 +1,12 @@
+#exportPattern("^[[:alpha:]]+")
+
+export(redda, rupclass)
+export(control_init_rupclass, control_restr_rupclass, control_EM_rupclass)
+
+S3method("print", "rupclass")
+S3method("print", "redda")
+S3method("predict", "redda")
+
+importFrom("utils", "setTxtProgressBar", "txtProgressBar", "flush.console")
+importFrom("utils", "packageVersion")
+importFrom("mclust", "mclust.options", "map", "unmap", "mstep", "estep", "cdens", "dens", "covw", "decomp2sigma", "nMclustParams", "mstepE", "mstepV", "mstepEII", "mstepVII", "mstepEEI", "mstepVEI", "mstepEVI", "mstepVVI", "mstepEEE","mstepEVE", "mstepVEE", "mstepVVE", "mstepEEV", "mstepVEV", "mstepEVV", "mstepVVV", "estepE", "estepV","estepEII", "estepVII", "estepEEI", "estepVEI", "estepEVI", "estepVVI", "estepEEE", "estepEVE", "estepVEE", "estepVVE", "estepEEV", "estepVEV", "estepEVV", "estepVVV", "cdensE", "cdensV", "cdensEII", "cdensVII", "cdensEEI", "cdensVEI", "cdensEVI", "cdensVVI", "cdensEEE", "cdensEVE", "cdensVEE", "cdensVVE", "cdensEEV", "cdensVEV", "cdensEVV", "cdensVVV")
