@@ -1,20 +1,12 @@
 # rupclass
 
-The goal of rupclass is to ...
+Robust modification to the Model-Based Classification framework, employing impartial trimming and constraints on the ratio between the maximum and the minimum eigenvalue of the group scatter matrices. Both supervised (redda) and semi-supervised (rupclass) versions are included.
 
 ## Installation
 
-You can install the released version of rupclass from [CRAN](https://CRAN.R-project.org) with:
+You can install the development version of rupclass from github with:
 
-``` r
-install.packages("rupclass")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-## basic example code
+```r
+devtools::install_github("AndreaCappozzo/rupclass")
 ```
 
